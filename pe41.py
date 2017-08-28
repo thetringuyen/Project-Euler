@@ -27,5 +27,5 @@ def pe41():
     return res
 
 start_time = time.time()
-print("Ans = {}".format(int(pe41())))
+print("Ans = {}".format(pe41()))
 print("Run time = {:0.0f}ms".format((time.time() - start_time) * 1000))
